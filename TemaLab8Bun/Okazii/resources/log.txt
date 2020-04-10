@@ -1,0 +1,17 @@
+Started TASK MANAGER
+============
+============
+
+Ora: Fri Apr 10 10:56:21 EDT 2020 Mesaj:am pornit meesageProcessor
+Ora: Fri Apr 10 10:56:26 EDT 2020 Mesaj:am pornit BidderProccesor
+Ora: Fri Apr 10 10:56:35 EDT 2020 Mesaj:am pornit auctioneer
+Ora: Fri Apr 10 10:56:52 EDT 2020 Mesaj:am pornit Bidder
+Ora: Fri Apr 10 10:56:57 EDT 2020 Mesaj:Mesaj Primit de la :vlad
+Ora: Fri Apr 10 10:57:02 EDT 2020 Mesaj:am pornit Bidder
+Ora: Fri Apr 10 10:57:07 EDT 2020 Mesaj:Mesaj Primit de la :vlad
+Ora: Fri Apr 10 10:57:27 EDT 2020 Mesaj:MessageProcessor-M-am oprit
+Ora: Fri Apr 10 10:57:28 EDT 2020 Mesaj:BiddingProcessor-Am terminat
+Ora: Fri Apr 10 10:57:28 EDT 2020 Mesaj:Auctioneer-M-am oprit
+Ora: Fri Apr 10 10:57:28 EDT 2020 Mesaj:Bidder-Am terminat licitatia
+Ora: Fri Apr 10 10:57:28 EDT 2020 Mesaj:Bidder-Am terminat licitatia
+S-a term observarea
