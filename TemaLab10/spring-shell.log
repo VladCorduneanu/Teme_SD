@@ -1,0 +1,31 @@
+// dataflow 1.2.0.RELEASE log opened at 2020-04-26 12:42:37
+// dataflow 1.2.0.RELEASE log opened at 2020-04-26 12:42:59
+// [failed] app register --name time-source --type source --uri file:://///home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Source/target
+// [failed] app register --name time-source --type source --uri file::////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Source/target
+// [failed] app register --name time-source --type source --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Source/target
+app register --name time-source --type source --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Source/target/Data-FlowSource-1.0-SNAPSHOT.jar
+app register --name time-processor --type processor --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%202/DataFlow%20Processor/target/Data-FlowProcessor-1.0-SNAPSHOT.jar
+app register --name logging-sink --type sink --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%202/DataFlow%20Sink/target/DataFlowSink-1.0-SNAPSHOT.jar
+stream create --name time-to-log --definition 'time-source | time-processor | logging-sink'
+// [failed] stream deploy --name time-to-log
+// [failed] stream deploy --name time-to-log
+app unregister --name time-source --type source
+app unregister --name time-processor --type processor
+app unregister --name logging-sink --type sink
+// [failed] app unregister --name logging-sink --type sink
+app register --name time-source --type source --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Source/target/Data-FlowSource-1.0-SNAPSHOT.jar
+app register --name time-processor --type processor --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Processor/target/Data-FlowProcessor-1.0-SNAPSHOT.jar
+app register --name logging-sink --type sink --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Sink/target/DataFlowSink-1.0-SNAPSHOT.jar
+// [failed] stream deploy --name time-to-log
+app unregister --name time-source --type source
+// [failed] stream deploy --name time-to-log
+app unregister --name time-processor --type processor
+// [failed] stream deploy --name time-to-log
+app unregister --name logging-sink --type sink
+app register --name time-source --type source --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Source/target/Data-FlowSource-1.0-SNAPSHOT.jar
+app register --name logging-sink --type sink --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Sink/target/DataFlowSink-1.0-SNAPSHOT.jar
+app register --name time-processor --type processor --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Processor/target/DataFlowProcessor-1.0-SNAPSHOT.jar
+// [failed] stream deploy --name time-to-log
+app unregister --name time-source --type source
+app register --name time-source --type source --uri file:////home/vladcorduneanu/Documents/Facultate/Teme_SD/DataFlow/exemplul%201/DataFlow%20Source/target/DataFlowSource-1.0-SNAPSHOT.jar
+stream deploy --name time-to-log

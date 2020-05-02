@@ -1,0 +1,3 @@
+Tema consta doar din problema unu. Am luat si am modificat pe scheletul aplicatiei din laborator. In proiectul de source exista si un txt in care se vor introduce comenzile de rulat(cele din lab cu lolcat) cu -- ca separator(avea o eroare cu |)
+Nu am mai schimbat numele aplicatiilor (numele proiectelor au ramas aceleasi)
+Pt a merge ar trebui sa avem un dataflow de tipul source-procesor-procesor-procesor-sink
